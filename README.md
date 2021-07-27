@@ -1,37 +1,42 @@
-# CEF Fonts CJK 研发
+（第一次用码云还不太习惯，如果有什么更好的技能我再去了解一下）
 
-#### 介绍
-在这会有一些CEF Fonts CJK的相关文件以及更新记录存放。
+# CEF Fonts CJK
 
-#### 软件架构
-软件架构说明
+#### CEF Fonts CJK是一个完全用鼠标构建字形的“仿”手写体。目前版本为公开测试版（Alpha 0.01）。
 
+## 介绍
+ 
+本字体最大的特点就是里面的绝大部分字形均由鼠标绘制，你没听错，都是鼠标绘制的。目前已对CJK统一汉字区块（20989个字）、谚文音节（常用2350个）提供主要支持，
+可以为简繁中文、日语、韩语、英语、希腊语、俄语、泰语（仅字符）、阿拉伯语（待改进）等部分语言提供基本显示。
 
-#### 安装教程
+## 特色 
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 连字（好像也不能算什么特色吧）
+通过.liga脚本，fi、ff、fl、ffi、ffl这五个组合将会被连接在一起。
+![连字效果 如图所示](https://images.gitee.com/uploads/images/2021/0727/161727_457d5a49_9504356.png "Eg01.png")
 
-#### 使用说明
+- 拒绝一切装饰
+为使字符更容易被辨认，拒绝任何字符上的装饰，一目了然。
+ _（注：变音符号不能算装饰，在实际应用中，您依然可以对字符进行装饰，但不是直接修改字体源文件。）_ 
+![无装饰 如图所示](https://images.gitee.com/uploads/images/2021/0727/163957_d0394bdf_9504356.png "Eg02.png")
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 支持CJK统一汉字区块最后面的一些汉字
+位于Uni9FA6~Uni9FFC的汉字在此字体被支持。目前网上绝大部分字库几乎都没有更新过此处的汉字（可能是因为不太常用吧）
+![CJK 统一汉字区块尾部 如图所示](https://images.gitee.com/uploads/images/2021/0727/170103_e8e177af_9504356.png "EG03.png")
 
-#### 参与贡献
+- Kerning 调节字符间距
+基本技术，通过添加Pair Adjustment来调整字偶距。（但现在好像也只有一些默认字体才会用这个脚本吧）
+![间距调节 如图所示](https://images.gitee.com/uploads/images/2021/0727/172027_eb498ad5_9504356.png "EG04.png")
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- biang
+在电脑端按住Alt，输入200413（简体）或 200414（繁体），即可召唤。Unicode位置分别为Uni30EDD、Uni30EDE。
+![两个biang 如图所示](https://images.gitee.com/uploads/images/2021/0727/172626_077f4d2d_9504356.png "Eg05.png")
 
+还可能会有更多特色呈现。
 
-#### 特技
+## 使用说明
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 本字体可以商用，但在正式版发布之前，**您不得修改、贩卖本字体的源文件或从源文件提取的子集**。
+2. 您不得更改字体中的任何版权信息。
+3. 若您发现了字体中存在的问题，或者是对字体开发有建议，均可以在此以issue提出或者去B站账户（派对大魔王）私信反馈。
+4. 字体源文件发布的位置：https://www.fontke.com/font/168730028/
