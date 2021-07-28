@@ -41,3 +41,4 @@
 3. 字体源文件发布的位置：
    字客网：https://www.fontke.com/font/168730028/
    猫啃网：https://www.maoken.com/freefonts/12189.html
+**4.强烈建议您不要使用此字体去写三维世界的作业，若被老师等人批评，本作者不承担任何责任。** 
