@@ -2,7 +2,7 @@
 
 # CEF Fonts CJK
 
-#### CEF Fonts CJK是一个完全用鼠标构建字形的“仿”手写体。目前版本为公开测试版（最新版本号：Alpha 0.01 With 1st Fix）。
+#### CEF Fonts CJK是一个完全用鼠标构建字形的“仿”手写体。目前版本为公开测试版（最新版本号：Alpha 0.1 With 1st Fix）。
 
 ## 介绍
  
