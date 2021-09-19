@@ -1,7 +1,7 @@
 
 # CEF Fonts CJK
 
-#### CEF Fonts CJK是一个完全用鼠标构建字形的“仿”手写体。目前版本为公开测试版（最新版本号：Alpha 0.1 With 2nd Fix）。
+#### CEF Fonts CJK是一个完全用鼠标构建字形的“仿”手写体。目前版本为公开测试版（最新版本号：Alpha 0.1 With 3rd Fix）。
  **若上方版本号数字后面出现其他内容，则该内容也属于版本号（仅限冒号和右括号之内的区域）** 
 
 ## 介绍
@@ -21,8 +21,9 @@
 ![无装饰 如图所示](https://images.gitee.com/uploads/images/2021/0727/163957_d0394bdf_9504356.png "Eg02.png")
 
 - 支持CJK统一汉字区块最后面的一些汉字
-位于Uni9FA6~Uni9FFC的“神秘汉字”在此字体被支持。
-![CJK 统一汉字区块尾部 如图所示](https://images.gitee.com/uploads/images/2021/0727/170103_e8e177af_9504356.png "EG03.png")
+位于Uni9FA6~Uni9FFF的“神秘汉字”在此字体被支持。
+![神秘汉字](https://images.gitee.com/uploads/images/2021/0919/182358_9aadfd44_9504356.jpeg "EG07.jpg")
+** 最后三个字符为 Unicode 14.0 新增的字符 **
 
 - Kerning 调节字符间距
 基本技术，通过添加Pair Adjustment来调整字偶距。（后续会添加更多）
@@ -31,6 +32,11 @@
 - biang
 在电脑端按住Alt，输入200413（简体）或 200414（繁体），即可召唤。Unicode位置分别为Uni30EDD、Uni30EDE。
 ![两个biang 如图所示](https://images.gitee.com/uploads/images/2021/0727/172626_077f4d2d_9504356.png "Eg05.png")
+
+- 化学反应方程式功能[Beta]
+在私用区添加了一些化学反应方程式可能会用到的符号。告别凌乱格式，直接输入该符号即可表示化学方程式。
+下面是一些使用的例子：
+![使用例](https://images.gitee.com/uploads/images/2021/0919/183506_8fbba1b5_9504356.png "EG08.png")
 
 在未来将可能会有更多特色呈现。
 
