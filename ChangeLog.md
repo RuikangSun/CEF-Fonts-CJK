@@ -1,7 +1,7 @@
 (2021.09.19)
 版本：Alpha 0.1 With 3rd Fix
 更新内容：
-1.跟进Unicode 14.0，补全Uni9FFD~Uni9FFF三个汉字。从此CJK统一汉字区块全部填满。
+1.跟进Unicode 14.0，补全Uni9FFD~Uni9FFF三个汉字。从此CJK统一汉字区块全部填满。示意图详见README.MD更新的图片。
 2.增加化学反应方程式功能，详见README.MD。
 3.重写一部分字形，使其更加工整。
 
