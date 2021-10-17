@@ -5,6 +5,7 @@
 2.更新谚文组字功能，详见 https://www.bilibili.com/read/cv13620151
 3.修正错字：“瑮”、“鑧”
 4.日语假名延长音竖排修复
+5.更改postscript名称为CEF-Fonts-CJK，先前名称是不合规名称。
 
 (2021.10.04)
 版本：Alpha 0.1 With 4th Fix
